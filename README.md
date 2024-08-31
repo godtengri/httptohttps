@@ -12,6 +12,7 @@ Enhance your web security effortlessly with the HTTP to HTTPS Redirector Chrome 
 - 🚫 Manage Exclusions: Exclude specific domains from redirection.
 - 🔔 Real-time Notifications: Get alerts for each redirect.
 
+# Other
 Privacy Policy: 
 https://azerium.pro/privacypolicies/httptohttps
 
