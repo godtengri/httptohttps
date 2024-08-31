@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTTP to HTTPS Redirector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      color: #5865f2;
+      margin-bottom: 10px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    .analytics {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .analytics p {
+      margin: 0;
+    }
+    button {
+      background-color: #5865f2;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    button:hover {
+      background-color: #4752c4;
+    }
+    a {
+      color: #5865f2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTTP to HTTPS Redirector</h1>
+  <label>
+    <input type="checkbox" id="toggle">
+    Enable Redirect
+  </label>
+  <label>
+    <input type="checkbox" id="force-http-localhost">
+    Disable HTTPS Redirect on localhost
+  </label>
+  <div class="analytics">
+    <p>Redirect Count: <span id="analytics">0</span></p>
+  </div>
+  <button id="manage-exclusions">Manage Exclusions</button>
+  <button id="contact-us">Contact Us</button>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manage Exclusions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 15px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      color: #5865f2;
+      margin-bottom: 20px;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #5865f2;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #4752c4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Manage Exclusions</h1>
+  <textarea id="exclusion-list" placeholder="Enter domains to exclude, one per line..."></textarea>
+  <button id="save-exclusions">Save Exclusions</button>
+
+  <script src="exclusions.js"></script>
+</body>
+</html>
